@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: "Lora", serif;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+}
+#nav{
+    box-shadow: 0px 10px 10px rgba(0,0,0,.5);
+    height: 70px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+#navbar li a{
+    margin-left: 20px;
+    color: black;
+    border-radius:20px;
+    padding: 5px 10px 5px 10px;
+    width: 80px;
+    text-align: center;
+    transition: all 0.3s;
+}
+#navbar li a:hover{
+    background-color: rgba(219, 223, 208, 1);
+}
+#book{
+    border-radius: 20px;
+}
+
+/* ****home**** */
+
+#home{
+    background-image: url('./images/image\ 110.png');
+    background-size: cover;
+    background-position:center;
+}
+#home h1{
+    font-size: 70px;
+    /* width: 500px;    */
+}
+#home p{
+    font-size: 20px;
+    /* width: 500px;    */
+}
+.homebtn{
+    display: flex;
+    justify-content: center;
+    
+}
+.homebtn button{
+    border-radius: 25px;
+    padding:10px;
+}
+.homebtn button:nth-child(1){
+    background: rgba(173, 52, 62, 1);
+    margin-right: 10px;
+    color: white;
+}
+
+
+/* *****menu***** */
+
+#menu{
+    background: #e5e5e5;
+   
+}
+
+.card{
+    width: 300px;
+    height: 370px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,.5),
+                inset 4px 4px 10px white;
+    border-radius: 30px !important;
+    outline: none;
+    margin-top: 30px;
+}
+.card img{
+    width: 50px;
+    height: 50px;     
+}
+
+#menu h1{
+    font-size: 50px;   
+}
+.card a{
+    text-decoration: none;
+    color: rgb(224, 55, 69);
+}
+
+/* *********about us********* */
+#about{
+    padding-top: 100px;
+}
+
+#about .img-fluid{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+.address{
+    background:rgba(0,0,0,.3);
+    color: white;
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    z-index:7;
+    position: relative;
+    bottom: 250px;
+    left:0px;
+    
+}
+.address li{
+    padding: 10px;
+    list-style-type: none;
+}
+.address i{
+    margin-right: 15px;
+}
+.food h1,p{
+   margin: 50px;
+}
+.food button{
+    border-radius: 25px;
+    margin: 10px 50px;
+    padding: 10px;
+}
+/* ************services************ */
+#services{
+    background:rgba(249, 249, 247, 1);
+}
+.card .SerImg{
+    width: 90% !important;
+    height:60% !important;
+}
+#services .card{
+    width: 300px;
+    height: 370px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,.5),
+                inset 4px 4px 10px white;
+    border-radius: 30px !important;
+    outline: none;
+    margin-top: 30px;
+}
+/* ***********fastest food delivery*************** */
+
+#fastfood{
+
+    position: relative;
+    background:white;
+}
+#fastfood .container{
+    padding: 40px;
+}
+#fastfood .img1{
+    position:absolute;
+    top: 440px;
+}
+#fastfood .img2{
+    position:absolute;
+    bottom: 300px;
+}
+#fastfood li{
+    list-style-type: none;
+    margin-top: 20px;
+   
+}
+#fastfood ul{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+#fastfood i{
+    padding-right: 30px;
+}
+ 
+/* ***********customer say************ */
+#custsay{
+    background:rgba(249, 249, 247, 1);;
+}
+
+#custsay .card{
+    width: 416px;
+    height: 370px;
+    padding: 5px;
+}
+.customer{
+    padding: 20px;
+}
