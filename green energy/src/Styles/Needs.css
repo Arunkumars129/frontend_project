@@ -1,0 +1,11 @@
+.needcard{
+    width: 200px;
+    height: 180px;
+    border-radius: 10px;
+   
+}
+.needimg{
+    width: 90%;
+    height: 90%;
+    padding:20px;
+}
